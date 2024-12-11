@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Deniega</title>
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+           
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgb(255, 255, 255, 0.7);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="password"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .error {
+            color: red;
+        }
+        .radio-group, .checkbox-group {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ARIAN JOY DENIEGA</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blogPage.html">Blog</a>
+        <a href="article.html">Article</a>
+        <a href="form.html">Register</a>
+    </nav>
+    <main id="blogMain">
+        <div class="container">
+            <h2>Register</h2>
+            <form action="#" method="POST" id="registrationForm">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <span class="error" id="nameError"></span>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError"></span>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error" id="passwordError"></span>
+    
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+                
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required> I agree to the Terms and Conditions
+                </label>
+                <span class="error" id="termsError"></span>
+    
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        </main>
+    <footer>
+        <p>&copy; Arian Joy Vensolan Deniega.<br>
+            Sorsogon College of Criminology Inc.<br>
+                3928, Rizal St, Sorsogon City, Sorsogon<br>
+                S.Y. 2024-2025
+        </p>
+    </footer>
+</body>
+</html>

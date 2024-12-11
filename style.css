@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG5oNzF6ZWdyNjBpOXgzZnVxaWN2NXYwcnoxcHhtOHo0ZHJ0cXAxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2tMuOCL17ObOPNBdfV/giphy.webp');
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover;
+        
+    
+}
+header {
+    background-color: rgb(76, 175, 80, 0.5);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #575757;
+}
+main {
+    padding: 2rem;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+.textBio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    margin: 0;
+}
+
+#home{
+    background-color: rgb(255, 0, 234, 0.5);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(255, 1, 234);
+}
+
+.headingText{
+    color: rgb(0, 0, 0);
+}
+
+.paraText{
+    font-size: 20px;
+}
+
+#avSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(255, 1, 234);
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(255, 0, 234, 0.5);
+    color: white;
+    border-radius: 15px;
+    
+}
+
+#blogMain{
+    background-color: rgb(255, 255, 255, 0.7);
+}
